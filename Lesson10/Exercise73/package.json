@@ -1,0 +1,21 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Exercise73": "parcel serve exercise-render-prop-start.html",
+    "Exercise73:solution": "parcel serve exercise-render-prop.html"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Lesson 10 Exercises",
+  "main": "index.js",
+  "scripts": {
+    "Exercise80": "parcel serve exercise-map-to-props-start.html",
+    "Exercise80:solution": "parcel serve exercise-map-to-props.html"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  }
+}

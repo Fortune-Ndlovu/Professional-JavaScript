@@ -1,0 +1,12 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Exercise77": "node exercise-2-to-n-compose-start.js",
+    "Exercise77:solution": "node exercise-2-to-n-compose.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT"
+}

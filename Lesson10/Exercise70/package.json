@@ -1,0 +1,12 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Exercise70": "node exercise-re-implement-array-methods-start.js",
+    "Exercise70:solution": "node exercise-re-implement-array-methods.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT"
+}

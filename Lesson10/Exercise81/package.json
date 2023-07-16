@@ -1,0 +1,17 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Lesson 10 Exercises",
+  "main": "index.js",
+  "scripts": {
+    "Exercise81": "node exercise-graphql-micro-start.js",
+    "Exercise81:solution": "node exercise-graphql-micro.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "micro": "^9.3.4"
+  }
+}

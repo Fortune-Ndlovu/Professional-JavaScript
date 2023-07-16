@@ -1,0 +1,12 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Exercise75": "node exercise-reducer-test-start.js",
+    "Exercise75:solution": "node exercise-reducer-test.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT"
+}

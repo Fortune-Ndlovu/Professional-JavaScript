@@ -1,0 +1,13 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Activity16": "node activity-items-selector-test-start.js",
+    "Activity16:solution": "node activity-items-selector-test.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {}
+}

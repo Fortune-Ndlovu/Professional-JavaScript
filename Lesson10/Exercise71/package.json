@@ -1,0 +1,12 @@
+{
+  "name": "activities",
+  "version": "1.0.0",
+  "description": "Lesson 10 Activities",
+  "main": "index.js",
+  "scripts": {
+    "Exercise71": "node exercise-price-of-basket-start.js",
+    "Exercise71:solution": "node exercise-price-of-basket.js"
+  },
+  "author": "Hugo Di Francesco",
+  "license": "MIT"
+}

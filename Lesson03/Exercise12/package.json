@@ -1,0 +1,16 @@
+{
+  "name": "exercise_002",
+  "version": "1.0.0",
+  "description": "Application to search for files using globs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrainingByPackt/Professional-JavaScript.git",
+    "directory": "Lesson03/Exercise12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.0",
+    "glob-to-regexp": "^0.4.1"
+  }
+}
