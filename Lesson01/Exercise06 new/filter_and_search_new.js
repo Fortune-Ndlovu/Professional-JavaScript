@@ -36,4 +36,11 @@ function filterByTags() {
     return filtered;
 }
 
+// transforms all text to lowercase before comparing
+function filterByText(products) {
+    const txt = (textToSearch || "").toLowerCase();
+    return products.filter((p) => {
+        return p.name.toLowerCase().includes(txt);
+    });
+}
 
