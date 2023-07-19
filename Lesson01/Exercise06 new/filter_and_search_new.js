@@ -10,7 +10,6 @@ function AddFilterTags() {
                 tagsToFilterBy.push(tagEl.innerHTML);
                 applyFilters();
             }
-
         });
     });
 }
@@ -20,6 +19,21 @@ function applyFilters() {
     createListForProducts(filterByText(filterByTags(products)));
     addTagFilter();
     updateTagFilterList();
+}
+
+// func to handle the events on the input box for the text search
+function addTextSearchFilter() {
+    document.querySelector(".menu .right input".addEventListener("keyup", (e) => {
+        textToSearch = e.target.value;
+        applyFilters();
+    }));
+}
+
+// func to filter the list of products using the tagsToFilterBy array.
+function filterByTags() {
+    let filtered = products;
+    tagsToFilterBy.forEach(() => filtered = filtered.filter(p => p.tags.includes(t)));
+    return filtered;
 }
 
 
