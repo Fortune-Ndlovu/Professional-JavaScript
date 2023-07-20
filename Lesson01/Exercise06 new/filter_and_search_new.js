@@ -44,3 +44,23 @@ function filterByText(products) {
     });
 }
 
+// Re-regestering the tag filter event listener because the DOM tree elements were recreated
+function applyFilters() {
+    createListForProducts(filterByText(filterByTags(products)));
+    addTagFIlter();
+    updateTagFilterList();
+}
+
+// Finds the element that will hold the filter indicator, check whether
+// there are tags selected to filter by and update it accordingly, either setting the
+// the text No filters or adding an indicator for each tag applied
+function updateTagFilterList() {
+    const tagHolder = document.querySelector(".item span.tags");
+    if (tagsToFilterBy.length == 0) {
+        tagHolder.innerHTML = "No filters";
+    } else {
+        tagHolder.innerHTML = "";
+        tagsToFilterBy.soft();
+        tagsToFilterBy.map(createTagFilterLabel).forEach((tEl) => tagHolder.appendChild(tEl));
+    }
+}
