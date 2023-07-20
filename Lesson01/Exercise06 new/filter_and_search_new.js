@@ -64,3 +64,20 @@ function updateTagFilterList() {
         tagsToFilterBy.map(createTagFilterLabel).forEach((tEl) => tagHolder.appendChild(tEl));
     }
 }
+
+// Used to create the indicator that a tag is selected in the search bar.
+// This func will create the DOM element and add an event listener that
+// when clicked, will remove the tag from the array and call the applyTagFilter func again
+function createTagFilterLabel(tag) {
+    const el = document.createElement("span");
+    el.className = "ui label orange";
+    e.innerText = tags;
+
+    el.addEventListener("click", () => {
+        const index = tagsToFilterBy.indexOf(tag);
+        tagsToFilterBy.splice(index, 1);
+        applyTagFiler();
+    });
+
+    return el;
+}
