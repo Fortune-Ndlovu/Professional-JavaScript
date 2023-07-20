@@ -81,3 +81,7 @@ function createTagFilterLabel(tag) {
 
     return el;
 }
+
+// to update the page to the initial state, which is no tags selected
+addTextSearchFilter();
+applyFilters();
